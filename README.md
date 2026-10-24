@@ -30,13 +30,6 @@ py -m unittest discover -v
 
 A* uses a priority queue, a movement cost of 1 per cell, and Manhattan distance as its heuristic. The resulting shortest route is animated one cell at a time. Clicking a cell triggers a new route search. If no route exists, movement stops safely.
 
-## Next improvements
-
-- Add randomly generated maps with a seed.
-- Export route metrics to CSV.
-- Compare A* against Dijkstra's algorithm.
-- Add a more realistic continuous vehicle model.
-
 ## Reference and credit
 
 Inspired by the learning topics in [ShisatoYano/AutonomousVehicleControlBeginnersGuide](https://github.com/ShisatoYano/AutonomousVehicleControlBeginnersGuide). This implementation is standalone and does not copy that repository's code.
